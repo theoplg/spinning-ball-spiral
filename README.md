@@ -10,7 +10,10 @@
 
 This project investigates the aerodynamics of spinning spherical projectiles, inspired by the legendary "perfect free-kick" scored by Roberto Carlos in 1997. 
 
-By transposing the problem to a laboratory scale (marbles in water and oil), we analyze the **Magnus effect** and the transition from circular trajectories to **"Spinning Ball Spirals"** (as described by C. Clanet). This repository contains the experimental data analysis code (Python) and the full research paper (LaTeX).
+By transposing the problem to a laboratory scale (marbles in water and oil), we analyze the **Magnus effect** and the transition from circular trajectories to **"Spinning Ball Spirals"** (as described by C. Clanet). This repository contains the experimental data analysis code (Python) and the full research paper (LaTeX).  
+<p align="center">
+  <img src="images/coup-francPNGcopie.PNG" width="400">
+</p>
 
 ## 📂 Repository Structure
 
@@ -24,8 +27,23 @@ By transposing the problem to a laboratory scale (marbles in water and oil), we 
 * **Trajectory Reconstruction:** Uses high-speed chronophotography data to reconstruct the path of the projectile using a **discrete summation assumption** ($\sum \Delta s$) for high precision.
 * **Physics Modeling:** Validates the exponential decay of velocity: $U(s) = U_0 e^{-s/\delta}$.
 * **Uncertainty Analysis:** Includes full error propagation (Z-score calculation) to validate the theoretical model against experimental data.
-* **Reynolds Number Comparison:** Compares turbulent regimes in water ($Re \approx 10^5$) vs. oil ($Re \approx 10^3$).
-
+* **Reynolds Number Comparison:** Compares turbulent regimes in water ($Re \approx 10^5$) vs. oil ($Re \approx 10^3$).  
+<p align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img src="images/Screenshot (6).png" width="400" />
+        <br>
+        <em>Légende 1 (optionnelle)</em>
+      </td>
+      <td align="center">
+        <img src="images/Screenshot (9).png" width="400" />
+        <br>
+        <em>Légende 2 (optionnelle)</em>
+      </td>
+    </tr>
+  </table>
+</p>
 ## 🛠️ Installation & Usage
 
 ### Prerequisites
